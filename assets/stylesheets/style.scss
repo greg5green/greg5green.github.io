@@ -1,5 +1,45 @@
 ---
 ---
 
-@import 'settings';
-@import 'global';
+@import 'vendor/normalize';
+
+@import 'global/variables';
+@import 'global/mixins';
+@import 'global/typography';
+
+@import 'components/header';
+@import 'components/nav';
+@import 'components/footer';
+
+@import 'layouts/main';
+@import 'layouts/404';
+
+.clearfix,
+.clear-left,
+.clear-right {
+  height: 0;
+  font-size: 0.01em;
+  line-height: 0.01em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 10px;
+}

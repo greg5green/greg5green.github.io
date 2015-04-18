@@ -1,0 +1,139 @@
+// this file only contains base typographical layout stuff
+// sizing, setting up of vertical rhythm, basic font styles and weights
+// colors and custom styling are not here, look elsewhere
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/open-sans.eot');
+    src: url('/assets/fonts/open-sans.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/open-sans.woff') format('woff'),
+         url('/assets/fonts/open-sans.ttf') format('truetype'),
+         url('/assets/fonts/open-sans.svg#OpenSansRegular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/open-sans-italic.eot');
+    src: url('/assets/fonts/open-sans-italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/open-sans-italic.woff') format('woff'),
+         url('/assets/fonts/open-sans-italic.ttf') format('truetype'),
+         url('/assets/fonts/open-sans-italic.svg#OpenSansItalic') format('svg');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/open-sans-semibold.eot');
+    src: url('/assets/fonts/open-sans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/open-sans-semibold.woff') format('woff'),
+         url('/assets/fonts/open-sans-semibold.ttf') format('truetype'),
+         url('/assets/fonts/open-sans-semibold.svg#OpenSansSemibold') format('svg');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/open-sans-semibold-italic.eot');
+    src: url('/assets/fonts/open-sans-semibold-italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/open-sans-semibold-italic.woff') format('woff'),
+         url('/assets/fonts/open-sans-semibold-italic.ttf') format('truetype'),
+         url('/assets/fonts/open-sans-semibold-italic.svg#OpenSansSemiboldItalic') format('svg');
+    font-style: italic;
+    font-weight: 600;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight : 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+pre[class*="language-"],
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+h1,
+.alpha {
+    @include bold;
+    font-size: 24px;
+    line-height: 1;
+}
+
+h2,
+.beta {
+    @include bold;
+    font-size: 22px;
+    line-height: 1.0909;
+}
+
+h3,
+.gamma {
+    @include bold;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h4,
+.delta {
+    @include bold;
+    font-size: 18px;
+    line-height: 1.333;
+}
+
+h5,
+h6,
+.epsilon {
+    @include bold;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+small {
+    line-height: 1.875;
+}
+
+strong {
+    @include bold;
+}
+
+::-moz-selection {
+    background: #b06767;
+}
+
+::selection {
+    background: #b06767;
+}
+
+a {
+    color: $forest-green;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: #48a748;
+    }
+}

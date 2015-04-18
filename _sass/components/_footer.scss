@@ -1,0 +1,53 @@
+.footer {
+    clear: both;
+    padding-bottom: 24px;
+
+    p {
+        text-align: center;
+    }
+}
+
+.footer__divider {
+    border-top: 1px solid lighten($default-text, 65%);
+    padding: 36px 70px 0;
+}
+
+.sm-icon {
+    background-image: url(/assets/images/gg-sprite-sheet.min.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 36px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    width: 36px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.sm-icon--delicious {
+    background-position: 0 0;
+}
+
+.sm-icon--email {
+    background-position: 0 -54px;
+}
+
+.sm-icon--github {
+    background-position: 0 -108px;
+}
+
+.sm-icon--linkedin {
+    background-position: 0 -162px;
+}
+
+.sm-icon--stack-overflow {
+    background-position: 0 -216px;
+}
+
+.sm-icon--twitter {
+    background-position: 0 -270px;
+}

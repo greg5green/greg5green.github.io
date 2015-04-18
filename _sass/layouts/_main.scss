@@ -1,0 +1,24 @@
+html {
+    background-color: lighten(#61a761, 47%);
+    background-image: url(/assets/images/noisybg.png);
+    color: $default-text;
+    height: 100%;
+    padding: 0 10px;
+}
+
+body {
+    background-color: #fefefe;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    margin: 0 auto;
+    min-height: 100%;
+    overflow-y: scroll;
+    padding: 0 20px;
+    width: 940px;
+}
+
+.content {
+    clear: both;
+    margin: 0 auto;
+    padding: 0 10px 48px 0;
+    width: 580px;
+}
