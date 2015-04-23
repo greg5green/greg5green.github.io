@@ -20,13 +20,13 @@
         </h1>
         <nav class="nav">
             <ul>
-                <li class="nav__item">
+                <li class="nav__item {% if page.url == '/index.html' %} nav__item--active {% endif %}">
                     <a href="/">About</a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item {% if page.path contains 'projects/' %} nav__item--active {% endif %}">
                     <a href="/projects">Projects</a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item {% if page.path contains 'blog/'' %} nav__item--active {% endif %}">
                     <a href="/blog">Blog</a>
                 </li>
             </ul>
