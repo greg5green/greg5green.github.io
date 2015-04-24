@@ -1,0 +1,17 @@
+---
+layout: base
+title: Projects
+---
+
+{% for project in site.data.projects %}
+    <article>
+        <header>
+            <h2>
+                <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }} </a>
+            </h2>
+        </header>
+        <p>
+            {{ project.description }}
+        </p>
+    </article>
+{% endfor %}
