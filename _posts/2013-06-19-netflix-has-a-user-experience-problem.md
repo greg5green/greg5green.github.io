@@ -3,6 +3,8 @@ layout: post
 title: Netflix has a user experience problem
 categories:
     - UX
+redirect_from:
+    - /netflix-has-a-user-experience-problem/
 ---
 
 **UPDATE:** This actually has been fixed, so they don't have a user experience problem anymore (or at least not this one).

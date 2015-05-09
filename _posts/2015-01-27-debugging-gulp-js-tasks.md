@@ -3,6 +3,8 @@ layout: post
 title: Debugging Gulp.js Tasks
 categories:
     - Development
+redirect_from:
+    - /debugging-gulp-js-tasks/
 ---
 
 If you're like me, most of your Gulp.js code is pretty straightforward and doesn't have too much going on that you can't easily grok. Occasionally though, you write something that is a bit more complicated and the need to debug comes about. Until recently, I've just stared at the code until I see what's wrong. This gets pretty frustrating and is very inefficient.

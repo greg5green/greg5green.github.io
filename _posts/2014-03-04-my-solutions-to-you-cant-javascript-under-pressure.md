@@ -3,6 +3,8 @@ layout: post
 title: My Solutions to "You Can’t JavaScript Under Pressure"
 categories:
     - Development
+redirect_from:
+    - /my-solutions-to-you-cant-javascript-under-pressure/
 ---
 
 A few months ago, there was a fun little quiz going around the web called "[You Can't JavaScript Under Pressure](http://games.usvsth3m.com/javascript-under-pressure/)" (if you want to take the quiz, go do it now before you read what I did). After taking the quiz, I saw some others had published their best responses and it seemed like a pretty good idea to share my responses as well. I read a few of these posts back then and knew my responses would be tainted by them, so I've waited a few months to forget what I had read and publish this.
