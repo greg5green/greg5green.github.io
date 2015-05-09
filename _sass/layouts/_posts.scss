@@ -1,0 +1,31 @@
+.post__title {
+    margin-bottom: 0;
+}
+
+.post__footer-link {
+    display: inline-block;
+    margin-bottom: 24px;
+    vertical-align: middle;
+    width: 380px;
+
+    a {
+        display: inline-block;
+        vertical-align: middle;
+        width: 360px;
+    }
+}
+
+.post__footer-link--previous {
+    margin-right: 60px;
+}
+
+.post__footer-link--next {
+    text-align: right;
+}
+
+.post__footer-link-indicator {
+    display: inline-block;
+    width: 15px;
+    vertical-align: middle;
+}
+

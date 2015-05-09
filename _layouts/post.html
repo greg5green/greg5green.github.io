@@ -1,0 +1,36 @@
+{% include header.html %}
+
+<section class="content content--posts">
+    <article class="post">
+        <header class="post__header">
+            <h2 class="post__title">{{ page.title }}</h2>
+            <p class="post__time">
+                <small>
+                    Posted on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y"}}</time>.
+                </small>
+            </p>
+        </header>
+        <section class="post__entry">
+            {{ content }}
+        </section>
+        <footer class="post__footer">
+            <div class="post__footer-link post__footer-link--previous">
+                {% if page.previous %}
+                    <div class="post__footer-link-indicator">&laquo;</div>
+                    <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                {% endif %}
+            </div><!--
+                hacky comment as easy fix for white space between inline-block elements
+            --><div class="post__footer-link post__footer-link--next">
+                {% if page.next %}
+                    <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                    <div class="post__footer-link-indicator">&raquo;</div>
+                {% endif %}
+            </div>
+            <div class="clearfix">&nbsp;</div>
+        </footer>
+        <section class="post__comments"> <!-- TODO --> </section>
+    </article>
+</section>
+
+{% include footer.html %}

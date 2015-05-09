@@ -1,6 +1,6 @@
 {% include header.html %}
 
-<section class="content">
+<section class="content {% if page.url == '/index.html' %} content--home {% endif %}">
     {{ content }}
 </section>
 

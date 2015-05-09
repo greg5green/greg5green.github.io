@@ -8,7 +8,7 @@ html {
 
 body {
     background-color: #fefefe;
-    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     min-height: 100%;
     overflow-y: scroll;
@@ -19,6 +19,9 @@ body {
 .content {
     clear: both;
     margin: 0 auto;
-    padding: 0 10px 48px 0;
+    padding: 0 60px 48px;
+}
+
+.content--home {
     width: 580px;
 }
