@@ -23,10 +23,10 @@
                 <li class="nav__item {% if page.url == '/index.html' %} nav__item--active {% endif %}">
                     <a href="/">About</a>
                 </li>
-                <li class="nav__item {% if page.path contains 'projects/' %} nav__item--active {% endif %}">
+                <li class="nav__item {% if page.url contains '/projects/' %} nav__item--active {% endif %}">
                     <a href="/projects">Projects</a>
                 </li>
-                <li class="nav__item {% if page.path contains 'blog/'' %} nav__item--active {% endif %}">
+                <li class="nav__item {% if page.url contains '/blog/'' %} nav__item--active {% endif %}">
                     <a href="/blog">Blog</a>
                 </li>
             </ul>
