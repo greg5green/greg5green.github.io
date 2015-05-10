@@ -14,7 +14,7 @@ A few months ago, there was a fun little quiz going around the web called "[You 
 ### Problem #1
 **Goal:** Build a function that takes an integer and double it.
 <br />
-**Test cases:** 2, 4, -10, 0, 100
+**Test cases:** `2, 4, -10, 0, 100`
 
 {% highlight javascript %}
 function doubleInteger(integer) {
@@ -27,7 +27,7 @@ Just some basic multiplication. Pretty simple.
 ### Problem #2
 **Goal:** Build a function that determines if an integer is even or odd. It should return true if it's even and false if it's odd.
 <br />
-**Test cases:** 2, 3, 0, -2, Math.floor(Math.random()*1000000)*2)
+**Test cases:** `2, 3, 0, -2, Math.floor(Math.random()*1000000)*2)`
 
 {% highlight javascript %}
 function isNumberEven(integer) {
@@ -40,7 +40,7 @@ Easiest solution is to use modulo. Using the ! (more often used this way as !!) 
 ### Problem #3
 **Goal:** Build a function that when given a filename, returns the file extension if there is one. If there isn't a file extension, return false.
 <br />
-**Test cases:** blatherskite.png, perfectlylegal.torrent, spaces are fine in file names.txt, this does not have one, .htaccess
+**Test cases:** `blatherskite.png, perfectlylegal.torrent, spaces are fine in file names.txt, this does not have one, .htaccess`
 
 {% highlight javascript %}
 function getFileExtension(filename) {
@@ -59,15 +59,14 @@ First, I found the location of the period that separated the file name and exten
 ### Problem #4
 **Goal:** Build a function that when given an array finds the the longest string in the first level of the array.
 <br />
-**Test cases:** [‘a’, ‘ab’, ‘abc’], [‘big’, [0, 1, 2, 3, 4], ‘tiny’], [‘Hi’, ‘World’, ‘你好’], [true, false, ‘lol’], [{ object: true, mainly: ‘to confuse you’ }, ‘x’]
+**Test cases:** `[‘a’, ‘ab’, ‘abc’], [‘big’, [0, 1, 2, 3, 4], ‘tiny’], [‘Hi’, ‘World’, ‘你好’], [true, false, ‘lol’], [{ object: true, mainly: ‘to confuse you’ }, ‘x’]`
 
 {% highlight javascript %}
 function longestString(array) {
   var longString = '';
 
   array.forEach(function(word) {
-    if ((typeof word === 'string') &&
-        (word.length > longString.length)) {
+    if ((typeof word === 'string') && (word.length > longString.length)) {
       longString = word;
     }
   });
@@ -81,7 +80,7 @@ This one just needs to iterate over each item in the array to see if it is longe
 ### Problem #5
 **Goal:** Build a function that will sum up all integers that exist in any level of a nested array.
 <br />
-**Test cases:** [1, 2, 3, 4, 5], [[1, 2, 3], 4, 5], [[1, 2, false], '4', '5'], [[[[[[[[[1]]]]]]]], 1], [['A', 'B', 'C', 'easy as', 1, 2, 3]]
+**Test cases:** `[1, 2, 3, 4, 5], [[1, 2, 3], 4, 5], [[1, 2, false], '4', '5'], [[[[[[[[[1]]]]]]]], 1], [['A', 'B', 'C', 'easy as', 1, 2, 3]]`
 
 This one was without a doubt the hardest one (and was the only one that required much thinking). I came up with two paradigms for how to do this and both require some recursion (at least in JavaScript), which can be a difficult thing to grasp at times.
 
@@ -92,11 +91,8 @@ function flattenArray(array) {
   var flattenedArray = [];
 
   array.forEach(function(item) {
-    if (Object.prototype.toString.call(item) ===
-        '[object Array]') {
-      flattenedArray = flattenedArray.concat(
-        flattenArray(item)
-      );
+    if (Object.prototype.toString.call(item) === '[object Array]') {
+      flattenedArray = flattenedArray.concat(flattenArray(item));
     }
     else {
       flattenedArray.push(item);
@@ -118,13 +114,11 @@ The solution I prefer:
 1. flattens the array and
 2. uses a reduce operation to add all the integers together
 
-I've been spending some time in Ruby the last few months, and the way I would do this in Ruby makes this very easy to understand the JS version in my head (I'd usually do this as a one liner in Ruby&mdash;I split up the block that is passed to reduce so it will fit in this narrow column without wrapping):
+I've been spending some time in Ruby the last few months, and the way I would do this in Ruby makes this very easy to understand the JS version in my head:
 
 {% highlight ruby %}
 def arraySum(array)
-  array.flatten.reduce(0) do |a, b|
-    (b.is_a?(Integer)) ? a + b : a
-  end
+  array.flatten.reduce(0) { |a, b| (b.is_a?(Integer)) ? a + b : a }
 end
 {% endhighlight %}
 
@@ -154,8 +148,7 @@ function arraySum(array) {
     if (typeof item === 'number') {
       sum += item;
     }
-    else if (Object.prototype.toString.call(item) ===
-        '[object Array]') {
+    else if (Object.prototype.toString.call(item) === '[object Array]') {
       sum += arraySum(item);
     }
   });
