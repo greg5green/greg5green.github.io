@@ -1,0 +1,22 @@
+---
+layout: post
+title: Did things already close or are we just now embarking into new territory?
+categories:
+    - Contemporary Media Issues
+redirect_from:
+    - /did-things-already-close-or-are-we-just-now-embarking-into-new-territory/
+---
+
+Recently, we’ve been reading Timothy Wu’s latest book, *The Master Switch*, in my Contemporary Media Issues class. A major concept that he mentions time and time again is “The Cycle.” The cycle, as described by Wu, is the process by which “new information industries evolve from a novel invention” then continue through”the consolidation of information empire[s]” to finally “become a target for assault” by “a technological innovation that breaks through the defenses and becomes the basis of an insurgent industry.” (pgs. 10-11) While going through this, I’ve come to three different scenerios regarding the internet:
+
+* We have already moved through the closed, centralized period into a more open period.
+* We are just now seeing the likes of Google (and possibly other companies) start to lock things up 3.
+* Both 1 and 2 are true.
+
+<!--more-->
+
+Over the years, we have transitioned from ARPANET to high speed internet connections in every living room. An important part of history that I often forget (or perhaps block out) is the period of the mid to late 90s where the likes of America Online, Compuserve, Prodigy and eWorld ruled. These companies required the customer to use their 9600 baud or 14.4k baud (or 28.8k baud if you were really lucky) modem to dial up over their phone line to to a closed system (based on annoying keywords) designed and maintained by the company. It wasn’t possible to go outside the system. Until something changed — slowly you could go on outside IRC networks then you could go to outside websites. People started to realize that there was something to the Internet and gradually switched to true ISPs. AOL and the like were important because they created a commercial market that didn’t previously exist but they weren’t ideal. Could AOL and company be the closed, centralized portion of the internet? Often things go back to very open after the stranglehold is broken. Yeah, it was a lot quicker to break the stranglehold than had ever previously happened but the Internet is a STRANGE beast.
+
+My other thought is that we haven’t yet reached the closed stage of the cycle. My first thought was Google and its place in the marketplace. I also wonder if AT&amp;T, Comcast, Verizon, and Time Warner might be the true enslavers of the openness of the Internet but that will be saved for a later post. Back to Google: it seems like everything I do on the internet is somehow traced back to Google. My personal email is Google, my school email is Google, my homepage is Google, I have a Google Voice number, I use Google Documents frequently, Google is built into all my browsers, my online videos are hosted by a subsidiary of Google. Hell, the word “google” has even become verb. With this much inclusion in our lives (and let’s not forget about the hidden inclusions of ads and the tracking they do), I can barely remember what it was like without Google. They are pretty logical method of displaying websites on the net but what if they stopped doing things in such a logical manner? They could pretty easily lead us to certain places on the internet if they wanted to. How long before they see the $$$ in letting certain companies be the only search results that come up. Sure, you could use another search engine, but what if there wasn’t another. We’ve already lost AltaVista and Lycos and others (**EDIT:** Looks like AltaVista and Lycos are still up. Lycos is independently owned but AltaVista is owned by Yahoo! now. I’m surprised.). They already make a big habit of buying smaller companies (examples: YouTube, CAPTCHA, and the new WebM video codec come to mind). I’m not saying it’s going to happen but we should at least be vigilant.
+
+My third scenario suggests that both of these are true. Although I don’t remember reading any examples and can’t think of any, why can’t the cycle occur more than once? The Internet is so fluid that things happen quicker than a lot of other technologies. There aren’t centralized organizations to hold up these types of developments. I love the open internet — I hope that if we are embarking on another period of closedness, we can count on things happening quickly on the ‘net to open things back up.
