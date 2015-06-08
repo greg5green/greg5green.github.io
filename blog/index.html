@@ -18,11 +18,12 @@ title: Blog
                 </p>
             </header>
             <section class="post__entry">
-                {{ post.excerpt }}
+                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             </section>
 
         </article>
     {% endfor %}
+
     <footer class="pagination">
         <div class="pagination-link pagination-link--previous">
             {% if paginator.previous_page %}

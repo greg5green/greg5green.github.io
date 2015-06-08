@@ -5,6 +5,7 @@ categories:
     - Contemporary Media Issues
 redirect_from:
     - /did-things-already-close-or-are-we-just-now-embarking-into-new-territory/
+excerpt: Recently, we’ve been reading Timothy Wu’s latest book, <em>The Master Switch</em>, in my Contemporary Media Issues class. A major concept that he mentions time and time again is “The Cycle.” The cycle, as described by Wu, is the process by which “new information industries evolve from a novel invention” then continue through”the consolidation of information empire[s]” to finally “become a target for assault” by “a technological innovation that breaks through the defenses and becomes the basis of an insurgent industry.”
 ---
 
 Recently, we’ve been reading Timothy Wu’s latest book, *The Master Switch*, in my Contemporary Media Issues class. A major concept that he mentions time and time again is “The Cycle.” The cycle, as described by Wu, is the process by which “new information industries evolve from a novel invention” then continue through”the consolidation of information empire[s]” to finally “become a target for assault” by “a technological innovation that breaks through the defenses and becomes the basis of an insurgent industry.” (pgs. 10-11) While going through this, I’ve come to three different scenerios regarding the internet:

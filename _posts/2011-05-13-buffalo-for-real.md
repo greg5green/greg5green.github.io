@@ -7,14 +7,12 @@ categories:
     - Marketing
 redirect_from:
     - /buffalo-for-real/
+excerpt: Although not something we have discussed in my Contemporary Media Issues class, I really wanted to comment on what a failure this new Buffalo promotional video has been. The city of Buffalo recently commissioned this video as attempt to promote Buffalo. The video is fine (although it makes me think the narrator is going to give me a Werther's Original at the end) but it didn't meet its goals (or what should be its goals anyways). I understand that some PR firm and videographer spent time doing this and should get paid for it, but I don't see how Buffalo can go through with this campaign.
 ---
 
 <iframe width="580" height="326" src="http://www.youtube.com/embed/JNYue0Os55A" frameborder="0" allowfullscreen></iframe>
 
-
 Although not something we have discussed in my Contemporary Media Issues class, I really wanted to comment on what a failure this new Buffalo promotional video has been. The city of Buffalo recently commissioned this video as attempt to promote Buffalo. The video is fine (although it makes me think the narrator is going to give me a Werther's Original at the end) but it didn't meet its goals (or what should be its goals anyways). I understand that some PR firm and videographer spent time doing this and should get paid for it, but I don't see how Buffalo can go through with this campaign.
-
-<!--more-->
 
 With every new project, you have to think of what the goals of this project are and how you are going to meet these goals. A PR campaign based around a commercial was obviously decided by someone (I don't know whether this was at City Hall or at a PR firm somewhere) but either the goals of the project were seriously maligned or they just weren't reached.
 
