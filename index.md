@@ -2,7 +2,7 @@
 layout: base
 ---
 
-NC based web developer.
+NC-based developer.
 
 Detail oriented JavaScripter/Front-Ender. Internet enthusiast.
 
