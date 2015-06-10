@@ -1,27 +1,39 @@
-html {
-    background-color: lighten(#61a761, 47%);
-    background-image: url(/assets/images/noisybg.png);
-    color: $default-text;
-    height: 100%;
-    padding: 0 10px;
+body {
+    padding: 2.4rem;
 }
 
-body {
-    background-color: #fefefe;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    margin: 0 auto;
-    min-height: 100%;
-    overflow-y: scroll;
-    padding: 0 20px;
-    width: 940px;
+.site-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    @media #{$desktop-up} {
+        justify-content: flex-end;
+        margin: 0 auto;
+        max-width: 960px;
+    }
+}
+
+.sidebar,
+.content,
+.footer {
+    flex: 1 100%;
+}
+
+.sidebar {
+    @media #{$desktop-up} {
+        flex: 1 33%;
+    }
 }
 
 .content {
-    clear: both;
-    margin: 0 auto;
-    padding: 0 60px 48px;
+    @media #{$desktop-up} {
+        flex: 1 67%;
+    }
 }
 
-.content--home {
-    width: 580px;
+.footer {
+    @media #{$desktop-up} {
+        flex-basis: 67%;
+        flex-grow: initial;
+    }
 }

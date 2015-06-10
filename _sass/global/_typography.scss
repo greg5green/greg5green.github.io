@@ -1,7 +1,3 @@
-// this file only contains base typographical layout stuff
-// sizing, setting up of vertical rhythm, basic font styles and weights
-// colors and custom styling are not here, look elsewhere
-
 @font-face {
     font-family: 'Open Sans';
     src: url('/assets/fonts/open-sans.eot');
@@ -48,12 +44,13 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
     font-weight : 400;
     -webkit-font-smoothing: antialiased;
 }
 
 body {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.5;
 }
 
@@ -74,42 +71,42 @@ dl,
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 h1,
 .alpha {
-    @include bold;
-    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 600;
     line-height: 1;
 }
 
 h2,
 .beta {
-    @include bold;
-    font-size: 22px;
+    font-size: 2.2rem;
+    font-weight: 600;
     line-height: 1.0909;
 }
 
 h3,
 .gamma {
-    @include bold;
-    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 h4,
 .delta {
-    @include bold;
-    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 600;
     line-height: 1.333;
 }
 
 h5,
 h6,
 .epsilon {
-    @include bold;
-    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
     line-height: 1.5;
 }
 
@@ -118,7 +115,7 @@ small {
 }
 
 strong {
-    @include bold;
+    font-weight: 600;
 }
 
 ::-moz-selection {
