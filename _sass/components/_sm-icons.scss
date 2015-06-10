@@ -1,0 +1,41 @@
+.sm-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 12.8rem;
+}
+
+.sm-icon {
+    background-image: url(/assets/images/gg-sprite-sheet.min.svg);
+    background-repeat: no-repeat;
+    height: 3.6rem;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    width: 3.6rem;
+}
+
+.sm-icon--delicious {
+    background-position: 0 0;
+}
+
+.sm-icon--email {
+    background-position: 0 -54px;
+}
+
+.sm-icon--github {
+    background-position: 0 -108px;
+}
+
+.sm-icon--linkedin {
+    background-position: 0 -162px;
+}
+
+.sm-icon--stack-overflow {
+    background-position: 0 -216px;
+}
+
+.sm-icon--twitter {
+    background-position: 0 -270px;
+}

@@ -3,13 +3,14 @@ body {
 }
 
 .site-container {
+    align-items: flex-start;
     display: flex;
     flex-flow: row wrap;
+    margin: 0 auto;
+    max-width: 96rem;
 
     @media #{$desktop-up} {
         justify-content: flex-end;
-        margin: 0 auto;
-        max-width: 960px;
     }
 }
 
@@ -20,8 +21,19 @@ body {
 }
 
 .sidebar {
+    box-sizing: border-box;
+    padding-right: 2.4rem;
+
+    .sm-icons {
+        display: none;
+    }
+
     @media #{$desktop-up} {
         flex: 1 33%;
+
+        .sm-icons {
+            display: inherit;
+        }
     }
 }
 
@@ -35,5 +47,9 @@ body {
     @media #{$desktop-up} {
         flex-basis: 67%;
         flex-grow: initial;
+
+        .sm-icons {
+            display: none;
+        }
     }
 }

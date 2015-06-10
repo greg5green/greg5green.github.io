@@ -1,7 +1,15 @@
 .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     p {
-        margin-bottom: 0;
+        flex: 1 100%;
         text-align: center;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 

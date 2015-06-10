@@ -1,0 +1,10 @@
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo,
+.site-nav {
+    flex: 1 100%;
+}
