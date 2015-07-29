@@ -27,15 +27,14 @@ title: Blog
 
     <footer class="pagination">
         <div class="pagination-link pagination-link--previous">
-            {% if paginator.previous_page %}
-                <div class="pagination-link-indicator">&laquo;</div>
-                <a href="{{ paginator.previous_page_path }}">Newer Entries</a>
-            {% endif %}
-        </div><!--
-            hacky comment as easy fix for white space between inline-block elements
-        --><div class="pagination-link pagination-link--next">
             {% if paginator.next_page %}
+                <div class="pagination-link-indicator">&laquo;</div>
                 <a href="{{ paginator.next_page_path }}">Older Entries</a>
+            {% endif %}
+        </div>
+        <div class="pagination-link pagination-link--next">
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}">Newer Entries</a>
                 <div class="pagination-link-indicator">&raquo;</div>
             {% endif %}
         </div>

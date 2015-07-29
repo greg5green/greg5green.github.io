@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+
+.pagination-link {
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.pagination-link--previous {
+  .pagination-link-indicator {
+    margin-right: 1rem;
+  }
+}
+
+.pagination-link--next {
+  a {
+    flex-grow: 1;
+    text-align: right;
+  }
+
+  .pagination-link-indicator {
+    margin-left: 1rem;
+  }
+}

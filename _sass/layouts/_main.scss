@@ -26,7 +26,6 @@ body {
 
 .sidebar {
     box-sizing: border-box;
-    padding-right: 2.4rem;
 
     .sm-icons {
         display: none;
@@ -34,6 +33,7 @@ body {
 
     @media #{$desktop-up} {
         flex: 1 33%;
+        padding-right: 2.4rem;
 
         .sm-icons {
             display: inherit;
