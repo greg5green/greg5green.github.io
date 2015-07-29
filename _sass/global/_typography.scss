@@ -129,7 +129,8 @@ strong {
 
 a {
     color: $forest-green;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
 
     &:hover {
         color: #48a748;

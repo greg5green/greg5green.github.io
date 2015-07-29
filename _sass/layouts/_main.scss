@@ -3,14 +3,25 @@ body {
 }
 
 .site-container {
-    align-items: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     margin: 0 auto;
     max-width: 96rem;
 
     @media #{$desktop-up} {
-        justify-content: flex-end;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
     }
 
     @media (min-width: 60rem) {
@@ -21,7 +32,10 @@ body {
 .sidebar,
 .content,
 .footer {
-    flex: 1 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
 }
 
 .sidebar {
@@ -32,7 +46,10 @@ body {
     }
 
     @media #{$desktop-up} {
-        flex: 1 33%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 33%;
+            -ms-flex: 1 33%;
+                flex: 1 33%;
         padding-right: 2.4rem;
 
         .sm-icons {
@@ -43,14 +60,22 @@ body {
 
 .content {
     @media #{$desktop-up} {
-        flex: 1 67%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 67%;
+            -ms-flex: 1 67%;
+                flex: 1 67%;
     }
 }
 
 .footer {
     @media #{$desktop-up} {
-        flex-basis: 67%;
-        flex-grow: initial;
+        -webkit-flex-basis: 67%;
+            -ms-flex-preferred-size: 67%;
+                flex-basis: 67%;
+        -webkit-box-flex: initial;
+        -webkit-flex-grow: initial;
+            -ms-flex-positive: initial;
+                flex-grow: initial;
 
         .sm-icons {
             display: none;
