@@ -12,6 +12,10 @@ body {
     @media #{$desktop-up} {
         justify-content: flex-end;
     }
+
+    @media (min-width: 60rem) {
+        padding: 4rem;
+    }
 }
 
 .sidebar,
