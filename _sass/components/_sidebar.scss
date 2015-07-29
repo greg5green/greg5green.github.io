@@ -8,3 +8,17 @@
 .site-nav {
     flex: 1 100%;
 }
+
+.logo {
+    background: url(/assets/images/logo.min.svg) 50% 0% no-repeat;
+    font-size: 2.8rem;
+    line-height: 7.2rem;
+    margin-bottom: 0;
+    padding-top: 4.8rem;
+    text-align: center;
+    text-shadow: 1px 1px rgba(red(darken(#fff, 30%)), green(darken(#fff, 30%)), blue(darken(#fff, 30%)), .5);
+
+    a {
+        text-decoration: none;
+    }
+}

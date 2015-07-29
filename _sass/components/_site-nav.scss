@@ -9,4 +9,12 @@
 .site-nav__item {
     flex-basis: 33%;
     text-align: center;
+
+    &--active {
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
