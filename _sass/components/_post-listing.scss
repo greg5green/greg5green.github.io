@@ -1,0 +1,16 @@
+.post-listing {
+  margin-bottom: 1.2rem;
+}
+
+.post-listing__title {
+  @extend .delta;
+
+  margin-bottom: 0;
+}
+
+.post-listing__date {
+  color: lighten($default-text, 10%);
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-bottom: 0;
+}

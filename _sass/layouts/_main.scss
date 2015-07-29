@@ -1,27 +1,84 @@
-html {
-    background-color: lighten(#61a761, 47%);
-    background-image: url(/assets/images/noisybg.png);
-    color: $default-text;
-    height: 100%;
-    padding: 0 10px;
+body {
+    padding: 2.4rem;
 }
 
-body {
-    background-color: #fefefe;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+.site-container {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     margin: 0 auto;
-    min-height: 100%;
-    overflow-y: scroll;
-    padding: 0 20px;
-    width: 940px;
+    max-width: 96rem;
+
+    @media #{$desktop-up} {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+
+    @media (min-width: 60rem) {
+        padding: 4rem;
+    }
+}
+
+.sidebar,
+.content,
+.footer {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+}
+
+.sidebar {
+    box-sizing: border-box;
+
+    .sm-icons {
+        display: none;
+    }
+
+    @media #{$desktop-up} {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 33%;
+            -ms-flex: 1 33%;
+                flex: 1 33%;
+        padding-right: 2.4rem;
+
+        .sm-icons {
+            display: inherit;
+        }
+    }
 }
 
 .content {
-    clear: both;
-    margin: 0 auto;
-    padding: 0 60px 48px;
+    @media #{$desktop-up} {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 67%;
+            -ms-flex: 1 67%;
+                flex: 1 67%;
+    }
 }
 
-.content--home {
-    width: 580px;
+.footer {
+    @media #{$desktop-up} {
+        -webkit-flex-basis: 67%;
+            -ms-flex-preferred-size: 67%;
+                flex-basis: 67%;
+        -webkit-box-flex: initial;
+        -webkit-flex-grow: initial;
+            -ms-flex-positive: initial;
+                flex-grow: initial;
+
+        .sm-icons {
+            display: none;
+        }
+    }
 }

@@ -1,0 +1,35 @@
+.sidebar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.logo,
+.site-nav {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+}
+
+.logo {
+    background: url(/assets/images/logo.min.svg) 50% 0% no-repeat;
+    font-size: 2.8rem;
+    line-height: 7.2rem;
+    margin-bottom: 0;
+    padding-top: 4.8rem;
+    text-align: center;
+    text-shadow: 1px 1px rgba(red(darken(#fff, 30%)), green(darken(#fff, 30%)), blue(darken(#fff, 30%)), .5);
+
+    a {
+        text-decoration: none;
+    }
+}

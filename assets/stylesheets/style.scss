@@ -4,35 +4,14 @@
 @import 'vendor/normalize';
 
 @import 'global/variables';
-@import 'global/mixins';
 @import 'global/typography';
 
-@import 'components/header';
-@import 'components/nav';
 @import 'components/code-highlighting';
-@import 'components/pagination';
 @import 'components/footer';
+@import 'components/pagination';
+@import 'components/post-listing';
+@import 'components/sidebar';
+@import 'components/site-nav';
+@import 'components/sm-icons';
 
 @import 'layouts/main';
-@import 'layouts/posts';
-@import 'layouts/404';
-
-.clearfix,
-.clear-left,
-.clear-right {
-  height: 0;
-  font-size: 0.01em;
-  line-height: 0.01em;
-}
-
-.clearfix {
-  clear: both;
-}
-
-.clear-right {
-  clear: right;
-}
-
-.clear-left {
-  clear: left;
-}

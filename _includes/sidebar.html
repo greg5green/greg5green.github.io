@@ -1,0 +1,21 @@
+<section class="sidebar">
+    <h1 class="logo">
+        <a href="/">{{ site.title }}</a>
+    </h1>
+
+    <nav class="site-nav">
+        <ul>
+            <li class="site-nav__item {% if page.url == '/index.html' %} site-nav__item--active {% endif %}">
+                <a href="/">About</a>
+            </li>
+            <li class="site-nav__item {% if page.url contains '/projects/' %} site-nav__item--active {% endif %}">
+                <a href="/projects">Projects</a>
+            </li>
+            <li class="site-nav__item {% if page.url contains '/blog/'' %} site-nav__item--active {% endif %}">
+                <a href="/blog">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    {% include social-media-icons.html %}
+</section>

@@ -1,4 +1,5 @@
 {% include header.html %}
+{% include sidebar.html %}
 
 <section class="content content--posts">
     <article class="post">
@@ -19,9 +20,8 @@
                     <div class="pagination-link-indicator">&laquo;</div>
                     <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
                 {% endif %}
-            </div><!--
-                hacky comment as easy fix for white space between inline-block elements
-            --><div class="pagination-link pagination-link--next">
+            </div>
+            <div class="pagination-link pagination-link--next">
                 {% if page.next %}
                     <a href="{{ page.next.url }}">{{ page.next.title }}</a>
                     <div class="pagination-link-indicator">&raquo;</div>

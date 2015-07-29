@@ -3,38 +3,30 @@ title: Blog
 ---
 
 {% include header.html %}
+{% include sidebar.html %}
 
-<section class="content content--posts">
+<section class="content content--post-listing">
     {% for post in paginator.posts %}
-        <article class="post">
-            <header class="post__header">
-                <h2 class="post__title">
+        <article class="post-listing">
+            <header class="post-listing__header">
+                <h2 class="post-listing__title">
                     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                 </h2>
-                <p class="post__time">
-                    <small>
-                        Posted on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y"}}</time>.
-                    </small>
-                </p>
+                <p class="post-listing__date">({{ post.date | date: "%B %-d, %Y"}})</p>
             </header>
-            <section class="post__entry">
-                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            </section>
-
         </article>
     {% endfor %}
 
     <footer class="pagination">
         <div class="pagination-link pagination-link--previous">
-            {% if paginator.previous_page %}
-                <div class="pagination-link-indicator">&laquo;</div>
-                <a href="{{ paginator.previous_page_path }}">Newer Entries</a>
-            {% endif %}
-        </div><!--
-            hacky comment as easy fix for white space between inline-block elements
-        --><div class="pagination-link pagination-link--next">
             {% if paginator.next_page %}
+                <div class="pagination-link-indicator">&laquo;</div>
                 <a href="{{ paginator.next_page_path }}">Older Entries</a>
+            {% endif %}
+        </div>
+        <div class="pagination-link pagination-link--next">
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}">Newer Entries</a>
                 <div class="pagination-link-indicator">&raquo;</div>
             {% endif %}
         </div>
