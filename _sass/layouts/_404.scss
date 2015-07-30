@@ -1,0 +1,15 @@
+.four-oh-four {
+  text-align: center;
+}
+
+.four-oh-four__image {
+  // 20px should keep what's left of vertical rhythm
+  // image is 124px
+  // 144px - 124px
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.four-oh-four__info {
+  text-align: left;
+}
