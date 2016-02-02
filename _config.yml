@@ -2,6 +2,7 @@ title: 'Greg Green'
 
 exclude: ['Gemfile', 'Gemfile.lock']
 gems:
+  - jekyll-paginate
   - jekyll-redirect-from
 
 paginate: 15
