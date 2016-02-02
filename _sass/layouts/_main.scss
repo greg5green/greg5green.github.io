@@ -59,6 +59,8 @@ body {
 }
 
 .content {
+    overflow: auto;
+
     @media #{$desktop-up} {
         -webkit-box-flex: 1;
         -webkit-flex: 1 67%;
