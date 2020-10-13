@@ -1,15 +1,15 @@
-- title: Movember Madness
-  url: http://movembermadness.com/
-  description: In honor of Movemeber, <a href="http://www.johnbhartley.com/">John Hartley</a> and I built a site to rate the mustaches of fellow developers, athletes, celebrities, and famous historical figures. I can only take a little bit of the credit though as this was mostly John’s brainchild—please send any and all complaints his way.
+# - title: Movember Madness
+#   url: http://movembermadness.com/
+#   description: In honor of Movemeber, <a href="http://www.johnbhartley.com/">John Hartley</a> and I built a site to rate the mustaches of fellow developers, athletes, celebrities, and famous historical figures. I can only take a little bit of the credit though as this was mostly John’s brainchild—please send any and all complaints his way.
 
 - title: httpconfig
-  url: http://httpconfig.gregorygreen.info/
+  url: https://httpconfig.greg5green.com/
   description: The browser version of ifconfig. Back-end API can return JSON or JSONP depending on how the request is formatted (this front-end only asks for JSON, at the moment). Built with Dojo and NodeJS. GitHub repository can be found at <a href="https://github.com/greg5green/httpconfig">https://github.com/greg5green/httpconfig</a>.
 
-- title: Net Neutrality Primer
-  url: http://portfolio.gregorygreen.info/net-neutrality-primer/
-  description: A brief primer built in May 2011 to bring the layperson up to speed on the issue of network neutrality.
+# - title: Net Neutrality Primer
+#   url: http://portfolio.gregorygreen.info/net-neutrality-primer/
+#   description: A brief primer built in May 2011 to bring the layperson up to speed on the issue of network neutrality.
 
-- title: Beers of Southern Tier Brewing
-  url: http://portfolio.gregorygreen.info/beers-of-southern-tier-brewing/
-  description: An interactive infographic I built to showcase the characteristics of a few of my favorite craft beers.
+# - title: Beers of Southern Tier Brewing
+#   url: http://portfolio.gregorygreen.info/beers-of-southern-tier-brewing/
+#   description: An interactive infographic I built to showcase the characteristics of a few of my favorite craft beers.
