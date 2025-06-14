@@ -4,7 +4,7 @@
 
 - title: httpconfig
   url: https://httpconfig.greg5green.com/
-  description: The browser version of ifconfig. Back-end API can return JSON or JSONP depending on how the request is formatted (this front-end only asks for JSON, at the moment). Built with Dojo and NodeJS. GitHub repository can be found at <a href="https://github.com/greg5green/httpconfig">https://github.com/greg5green/httpconfig</a>.
+  description: The browser version of ifconfig. Back-end API can return JSON or JSONP depending on how the request is formatted (this front-end only asks for JSON, at the moment). Built with Dojo and NodeJS. GitHub repository can be found at <a href="https://github.com/greg5green/httpconfig">https://github.com/greg5green/httpconfig</a>. <em>Note:</em> This project is quite old and hasn't been updated. But sometimes it's fun to still see Dojo code in the wild
 
 # - title: Net Neutrality Primer
 #   url: http://portfolio.gregorygreen.info/net-neutrality-primer/
@@ -13,3 +13,7 @@
 # - title: Beers of Southern Tier Brewing
 #   url: http://portfolio.gregorygreen.info/beers-of-southern-tier-brewing/
 #   description: An interactive infographic I built to showcase the characteristics of a few of my favorite craft beers.
+
+- title: Whack-a-Mole
+  url: https://whack-a-mole.greg5green.com/
+  description: A simple game built with HTML5 and JavaScript for a coding test. While it's been a few years since I worked on this, it was a fun exercise in DOM manipulation, timers, and basic game mechanics. The goal is to whack as many moles as you can in 30 seconds. GitHub repository can be found at <a href="https://github.com/greg5green/whack-a-mole">https://github.com/greg5green/whack-a-mole</a>.
